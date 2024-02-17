@@ -10,6 +10,7 @@ lerna-debug.log*
 
 # Dependencies
 node_modules
+for f in `/bin/ls -R ./**/.DS_Store`; do echo $f; done >> ./.gitignore
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
