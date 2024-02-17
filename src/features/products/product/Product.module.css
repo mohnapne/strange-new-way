@@ -1,0 +1,11 @@
+.imgWrapper {
+  height: 380px;
+  width: 280px;
+}
+
+/* обращение к самой картинке */
+
+.imgWrapper>img {
+  width: 100%;
+  height: 100%;
+}

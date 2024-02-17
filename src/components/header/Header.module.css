@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  background-color: rgb(255, 115, 0);
+  width: 100%;
+  padding: 20px 40px;
+}
+
+/* .navbar {
+  width: 100%;
+} */
+
+.navbar>a {
+  font-size: larger;
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+}
+
+.navbar>a:hover {
+  text-decoration: underline;
+}
+
+.navbar>a:global.active {
+  text-decoration: underline;
+}

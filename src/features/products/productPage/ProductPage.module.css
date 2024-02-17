@@ -1,0 +1,16 @@
+/* стили всего контейнера с карточками */
+
+.productList {
+  /* задали значение grid */
+  display: grid;
+  /* применили функцию repeat() со значение автозаполнения */
+  /* указали максимальное и минимальное значение размерности для карточки */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  background-color: white;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+/* стили для одной карточки */
+
